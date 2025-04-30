@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "consultant_request",
+      "patterns": [
+        "i would like to talk to a consultant",
+        "talk to consultant",
+        "talk to a consultant",
+        "i want to talk to a consultant",
+        "can i speak to a consultant",
+        "connect me to a consultant",
+        "i need to speak with someone",
+        "talk to a consultant",
+        "need human help",
+        "need to speak to someone",
+        "can i talk to an consultant",
+        "can i talk to an expert",
+        "let me talk to a real person",
+        "i want to talk to someone",
+        "i need to speak to a representative",
+        "get me a consultant",
+        "connect me with an expert",
+        "talk to human"
+      ]
+      
+    },
+    
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "yo",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "what's up",
+        "hiya",
+        "howdy",
+        "hey there",
+        "hello there",
+        "hi there"
+      ],
+      "response": "Hello! Welcome to GeoGreat SupplyChain Consultancy [GSCC]. How can I help you today?"
+    },
+    {
+      "tag": "about_us",
+      "patterns": [
+        "what does GeoGreat SupplyChain Consultancy [GSCC] do",
+        "tell me about GSCC",
+        "what services does GeoGreat offer",
+        "can you describe what GSCC does",
+        "what is GeoGreat SupplyChain Consultancy [GSCC]"
+      ],
+      "response": "GeoGreat SupplyChain Consultancy [GSCC] empowers businesses through tailored solutions in supply chain management, logistics, procurement, and operations. Our objective is to enhance operational efficiency, reduce risks, and drive long-term growth."
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can I contact GSCC",
+        "what is your phone number",
+        "where is GSCC located",
+        "what is your email",
+        "how do I reach GSCC"
+      ],
+      "response": "You may contact us via email at consult.us@geogrtscc.com or by phone at +254 703 570025. Nairobi, Kenya."
+    },
+    {
+      "tag": "services_overview",
+      "patterns": [
+        "what services do you offer",
+        "what can you help me with",
+        "what do you do",
+        "tell me about your services",
+        "what are your offerings",
+        "what services does GeoGreat SupplyChain Consultancy [GSCC] provide",
+        "can you list the services you offer"
+      ],
+      "response": "Our services include Business Process Re-engineering, Supply Chain Process Audit, ERP Procurement Guidance, End-to-End Logistics Solutions, Global Logistics Management, Project Procurement, and training & Capacity Building for supply chain personnel."
+    },
+    {
+      "tag": "business_process_reengineering",
+      "patterns": [
+        "what is business process reengineering",
+        "how do you improve operational processes",
+        "can you explain business process reengineering",
+        "what are your business process improvement methods"
+      ],
+      "response": "We identify and address inefficiencies within your operations through streamlined workflows. we provide essential documentation, such as SOPs, report templates, and procurement plans to ensure consistency and efficiency."
+    },
+    {
+      "tag": "supply_chain_audit",
+      "patterns": [
+        "what does your supply chain audit include",
+        "how do you analyze supply chain performance",
+        "what is involved in your supply chain audit",
+        "what does a supply chain audit entail"
+      ],
+      "response": "Our audit service evaluates your supply chain to identify operational gaps, risks, and improvement opportunities, ensuring cost-effectiveness and seamless performance."
+    },
+    {
+      "tag": "erp_procurement",
+      "patterns": [
+        "do you help with ERP systems",
+        "how do you guide ERP procurement",
+        "do you offer ERP implementation support",
+        "can you assist with selecting ERP systems"
+      ],
+      "response": "Yes, we provide expert guidance in ERP selection and implementation. we evaluate systems, negotiate with vendors, and manage the entire implementation process to ensure alignment with your strategic objectives."
+    },
+    {
+      "tag": "logistics_solutions",
+      "patterns": [
+        "what are your logistics solutions",
+        "how do you handle logistics",
+        "tell me about your logistics services",
+        "can you help with logistics management"
+      ],
+      "response": "We deliver end-to-end logistics solutions by leveraging industry best practices and advanced technologies to improve coordination, visibility, and performance across logistics operations."
+    },
+    {
+      "tag": "global_logistics",
+      "patterns": [
+        "do you offer international logistics support",
+        "what is global logistics management",
+        "how do you handle global logistics",
+        "do you manage international supply chains"
+      ],
+      "response": "Our global logistics management services encompass procurement to final delivery. we provide training on customs regulations, Incoterms, and documentation while offering call-out support for import-export challenges."
+    },
+    {
+      "tag": "training",
+      "patterns": [
+        "do you offer training",
+        "how do you build team capacity",
+        "tell me about your training programs",
+        "what type of training do you offer",
+        "can you help train my supply chain team"
+      ],
+      "response": "We provide customized training and capacity-building programs for supply chain personnel. this includes staff competency mapping, performance reviews, and onboarding support for new hires."
+    },
+    {
+      "tag": "why_choose",
+      "patterns": [
+        "why should I choose GSCC",
+        "what makes you different",
+        "what are your strengths",
+        "why is GeoGreat SupplyChain Consultancy [GSCC] the best choice"
+      ],
+      "response": "We offer global expertise, a client-focused approach, technological innovation, and an unwavering commitment to confidentiality, originality, and excellence in all our engagements."
+    },
+    {
+      "tag": "billing",
+      "patterns": [
+        "how do you charge",
+        "what are your rates",
+        "how is pricing determined",
+        "what is your pricing structure"
+      ],
+      "response": "Our fees are based on billable hours for consultancy services. One-time charges apply for deliverables such as templates, guides, and reports."
+    }
+  ]
+}
