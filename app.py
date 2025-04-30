@@ -16,7 +16,8 @@ if os.getenv("FLASK_ENV") != "production":
     load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://marvin-glitch-alt.github.io/GSCC"])
+
 
 
 with open('ggscc_knowledge_base.json', 'r') as f:
