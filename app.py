@@ -16,7 +16,7 @@ if os.getenv("FLASK_ENV") != "production":
     load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=["https://marvin-glitch-alt.github.io/GSCC"])
+CORS(app, origins=["https://gscc.africa"])
 
 
 
